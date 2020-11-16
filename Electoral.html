@@ -5,10 +5,39 @@
     <title>Awesome-pyecharts</title>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/USA.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel="stylesheet" href="css/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/tooplate.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 </head>
 <body style="background-color:#495057">
-<div id="cf9d067c509e439ca603c536673571c1" class="chart-container" style="width:1895px; height:920px;"></div>
+<div class="container">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Electoral Votes
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="Joe.html">Joe Biden</a>
+            <a class="dropdown-item" href="Trump.html">Donald Trump</a>
+            <a class="dropdown-item" href="win.html">Result</a>
+            <a class="dropdown-item" href="totalVotes.html">total Votes</a>
+        </div>
+    </div>
+</div>
+<div id="cf9d067c509e439ca603c536673571c1" class="chart-container" style="width:1895px; height:790px;"></div>
 <script>
     var chart_cf9d067c509e439ca603c536673571c1 = echarts.init(
         document.getElementById('cf9d067c509e439ca603c536673571c1'), 'white', {renderer: 'canvas'});
