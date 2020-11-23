@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Electoral Votes</title>
+    <title>各州的选举人票分配</title>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/USA.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
@@ -23,18 +23,25 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 </head>
-<body style="background-color:#495057">
+<body style="background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;">
 <div class="container">
-    <div class="dropdown">
+    <div class="btn-group-sm dropright">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-            Electoral Votes
+            各州的选举人票分配
         </button>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="totalVotes.html">Total Votes</a>
-            <a class="dropdown-item" href="Joe.html">Joe Biden</a>
-            <a class="dropdown-item" href="Trump.html">Donald Trump</a>
-            <a class="dropdown-item" href="win.html">Result</a>
-            <a class="dropdown-item active" href="Electoral.html">Electoral Votes</a>
+            <a class="dropdown-item" href="totalVotes.html">各州总投票数</a>
+            <a class="dropdown-item" href="win.html">各州的选举结果</a>
+            <a class="dropdown-item active" href="Electoral.html">各州的选举人票分配</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Joe Biden</h6>
+            <a class="dropdown-item" href="Joe.html">Biden 总票数分布</a>
+            <a class="dropdown-item" href="Joe_percent.html">Biden 票数百分比分布</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Donald Trump</h6>
+            <a class="dropdown-item" href="Trump.html">Trump 总票数分布</a>
+            <a class="dropdown-item" href="Trump_percent.html">Trump 票数百分比分布</a>
         </div>
     </div>
 </div>
