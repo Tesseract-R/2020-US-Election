@@ -4,6 +4,7 @@
 
 - 11/19 更新：增加了各州投票统计的饼图
 - 11/22 更新：尝试使用Kepler.gl进行可视化 [预览](https://tesseract-r.github.io/2020-US-Election/state/NevadaHeatmap.html)
+- 11/24 更新：增加了几张页面 [预览](https://tesseract-r.github.io/2020-US-Election/general_state_votes.html)
 
 [大选规则](https://www.bbc.com/news/election-us-2020-53785985)
 
